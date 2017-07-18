@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1DBD62D1F1E5B1700AB4D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */; };
+		F1DBD62F1F1E5B1700AB4D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */; };
+		F1DBD6321F1E5B1700AB4D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DBD6301F1E5B1700AB4D77 /* Main.storyboard */; };
+		F1DBD6341F1E5B1700AB4D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DBD6331F1E5B1700AB4D77 /* Assets.xcassets */; };
+		F1DBD6371F1E5B1700AB4D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DBD6351F1E5B1700AB4D77 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1DBD6291F1E5B1700AB4D77 /* Gachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1DBD6311F1E5B1700AB4D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1DBD6331F1E5B1700AB4D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1DBD6361F1E5B1700AB4D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1DBD6381F1E5B1700AB4D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DBD6261F1E5B1700AB4D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1DBD6201F1E5B1700AB4D77 = {
+			isa = PBXGroup;
+			children = (
+				F1DBD62B1F1E5B1700AB4D77 /* Gachi */,
+				F1DBD62A1F1E5B1700AB4D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DBD62A1F1E5B1700AB4D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DBD6291F1E5B1700AB4D77 /* Gachi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DBD62B1F1E5B1700AB4D77 /* Gachi */ = {
+			isa = PBXGroup;
+			children = (
+				F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */,
+				F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */,
+				F1DBD6301F1E5B1700AB4D77 /* Main.storyboard */,
+				F1DBD6331F1E5B1700AB4D77 /* Assets.xcassets */,
+				F1DBD6351F1E5B1700AB4D77 /* LaunchScreen.storyboard */,
+				F1DBD6381F1E5B1700AB4D77 /* Info.plist */,
+			);
+			path = Gachi;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DBD6281F1E5B1700AB4D77 /* Gachi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DBD63B1F1E5B1700AB4D77 /* Build configuration list for PBXNativeTarget "Gachi" */;
+			buildPhases = (
+				F1DBD6251F1E5B1700AB4D77 /* Sources */,
+				F1DBD6261F1E5B1700AB4D77 /* Frameworks */,
+				F1DBD6271F1E5B1700AB4D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gachi;
+			productName = Gachi;
+			productReference = F1DBD6291F1E5B1700AB4D77 /* Gachi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DBD6211F1E5B1700AB4D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Woojin Kim";
+				TargetAttributes = {
+					F1DBD6281F1E5B1700AB4D77 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7G9UBX7838;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F1DBD6241F1E5B1700AB4D77 /* Build configuration list for PBXProject "Gachi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1DBD6201F1E5B1700AB4D77;
+			productRefGroup = F1DBD62A1F1E5B1700AB4D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DBD6281F1E5B1700AB4D77 /* Gachi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DBD6271F1E5B1700AB4D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DBD6371F1E5B1700AB4D77 /* LaunchScreen.storyboard in Resources */,
+				F1DBD6341F1E5B1700AB4D77 /* Assets.xcassets in Resources */,
+				F1DBD6321F1E5B1700AB4D77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DBD6251F1E5B1700AB4D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DBD62F1F1E5B1700AB4D77 /* ViewController.swift in Sources */,
+				F1DBD62D1F1E5B1700AB4D77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1DBD6301F1E5B1700AB4D77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DBD6311F1E5B1700AB4D77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1DBD6351F1E5B1700AB4D77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DBD6361F1E5B1700AB4D77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DBD6391F1E5B1700AB4D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1DBD63A1F1E5B1700AB4D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1DBD63C1F1E5B1700AB4D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G9UBX7838;
+				INFOPLIST_FILE = Gachi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexters11th.ios.Gachi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F1DBD63D1F1E5B1700AB4D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7G9UBX7838;
+				INFOPLIST_FILE = Gachi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nexters11th.ios.Gachi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DBD6241F1E5B1700AB4D77 /* Build configuration list for PBXProject "Gachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DBD6391F1E5B1700AB4D77 /* Debug */,
+				F1DBD63A1F1E5B1700AB4D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DBD63B1F1E5B1700AB4D77 /* Build configuration list for PBXNativeTarget "Gachi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DBD63C1F1E5B1700AB4D77 /* Debug */,
+				F1DBD63D1F1E5B1700AB4D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1DBD6211F1E5B1700AB4D77 /* Project object */;
+}
