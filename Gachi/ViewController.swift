@@ -23,12 +23,41 @@ class ViewController: UIViewController {
     @IBAction func clickedKakaoLogin(_ sender: UIButton) {
         
         testLabel.text = "카카오톡 로그인 클릭"
+        
+        let session: KOSession = KOSession.shared();
+        
+        if session.isOpen() {
+            session.close()
+        }
+        
+        session.presentingViewController = self.navigationController
+        session.open(completionHandler: { (error) -> Void in
+            session.presentingViewController = nil
+            
+            if !session.isOpen() {
+                switch ((error as! NSError).code) {
+                case Int(KOErrorCancelled.rawValue):
+                    break;
+                default:
+                    self.displayAlert(nil, message: "에러가 발생하였습니다.")
+                    break;
+                }
+            }
+            }, authParams: nil, authTypes: [NSNumber(value: KOAuthType.talk.rawValue), NSNumber(value: KOAuthType.account.rawValue)])
     }
     
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func displayAlert(_ title: String?, message: String) {
+        
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "확인", style: .default, handler: nil)
+        let cancelAction = UIAlertAction(title: "취소", style: .cancel, handler: nil)
+        
+        alertController.addAction(okAction)
+        alertController.addAction(cancelAction)
+        
+        present(alertController, animated: true, completion: nil)
     }
 
 

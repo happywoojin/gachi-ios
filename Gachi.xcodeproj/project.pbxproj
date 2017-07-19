@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36B988EFBAD073F11BBC0796 /* Pods_Gachi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9C9FD50B9601C3B8848481 /* Pods_Gachi.framework */; };
 		F1DBD62D1F1E5B1700AB4D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */; };
 		F1DBD62F1F1E5B1700AB4D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */; };
 		F1DBD6321F1E5B1700AB4D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DBD6301F1E5B1700AB4D77 /* Main.storyboard */; };
 		F1DBD6341F1E5B1700AB4D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DBD6331F1E5B1700AB4D77 /* Assets.xcassets */; };
 		F1DBD6371F1E5B1700AB4D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DBD6351F1E5B1700AB4D77 /* LaunchScreen.storyboard */; };
+		F1DBD6401F1E624300AB4D77 /* KakaoOpenSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DBD63F1F1E624300AB4D77 /* KakaoOpenSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13AAEDAD635B19C88F156EAC /* Pods-Gachi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gachi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gachi/Pods-Gachi.debug.xcconfig"; sourceTree = "<group>"; };
+		D336F057E2BF471B41E4C887 /* Pods-Gachi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gachi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gachi/Pods-Gachi.release.xcconfig"; sourceTree = "<group>"; };
+		EE9C9FD50B9601C3B8848481 /* Pods_Gachi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gachi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DBD6291F1E5B1700AB4D77 /* Gachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,8 @@
 		F1DBD6331F1E5B1700AB4D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1DBD6361F1E5B1700AB4D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1DBD6381F1E5B1700AB4D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DBD63F1F1E624300AB4D77 /* KakaoOpenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KakaoOpenSDK.framework; path = "kakao-ios-sdk-1.4.1/KakaoOpenSDK.framework"; sourceTree = "<group>"; };
+		F1DBD6411F1E636800AB4D77 /* Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridging_Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +36,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B988EFBAD073F11BBC0796 /* Pods_Gachi.framework in Frameworks */,
+				F1DBD6401F1E624300AB4D77 /* KakaoOpenSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63E04EC2A116E5D49088BDFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1DBD63F1F1E624300AB4D77 /* KakaoOpenSDK.framework */,
+				EE9C9FD50B9601C3B8848481 /* Pods_Gachi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84DE84226651C91DF9F9037B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13AAEDAD635B19C88F156EAC /* Pods-Gachi.debug.xcconfig */,
+				D336F057E2BF471B41E4C887 /* Pods-Gachi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F1DBD6201F1E5B1700AB4D77 = {
 			isa = PBXGroup;
 			children = (
 				F1DBD62B1F1E5B1700AB4D77 /* Gachi */,
 				F1DBD62A1F1E5B1700AB4D77 /* Products */,
+				84DE84226651C91DF9F9037B /* Pods */,
+				63E04EC2A116E5D49088BDFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +89,7 @@
 				F1DBD6331F1E5B1700AB4D77 /* Assets.xcassets */,
 				F1DBD6351F1E5B1700AB4D77 /* LaunchScreen.storyboard */,
 				F1DBD6381F1E5B1700AB4D77 /* Info.plist */,
+				F1DBD6411F1E636800AB4D77 /* Bridging_Header.h */,
 			);
 			path = Gachi;
 			sourceTree = "<group>";
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1DBD63B1F1E5B1700AB4D77 /* Build configuration list for PBXNativeTarget "Gachi" */;
 			buildPhases = (
+				211360E5B0B28F72C4E3054F /* [CP] Check Pods Manifest.lock */,
 				F1DBD6251F1E5B1700AB4D77 /* Sources */,
 				F1DBD6261F1E5B1700AB4D77 /* Frameworks */,
 				F1DBD6271F1E5B1700AB4D77 /* Resources */,
+				BDC159A26CF09F0FA32104E1 /* [CP] Embed Pods Frameworks */,
+				403C1D878F8839EBFDD56E95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +164,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		211360E5B0B28F72C4E3054F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		403C1D878F8839EBFDD56E95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gachi/Pods-Gachi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC159A26CF09F0FA32104E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gachi/Pods-Gachi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F1DBD6251F1E5B1700AB4D77 /* Sources */ = {
@@ -209,6 +290,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = Gachi/Bridging_Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -250,6 +332,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = Gachi/Bridging_Header.h;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -257,26 +340,40 @@
 		};
 		F1DBD63C1F1E5B1700AB4D77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13AAEDAD635B19C88F156EAC /* Pods-Gachi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7G9UBX7838;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kakao-ios-sdk-1.4.1",
+				);
 				INFOPLIST_FILE = Gachi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nexters11th.ios.Gachi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Gachi/Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F1DBD63D1F1E5B1700AB4D77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D336F057E2BF471B41E4C887 /* Pods-Gachi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7G9UBX7838;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kakao-ios-sdk-1.4.1",
+				);
 				INFOPLIST_FILE = Gachi/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nexters11th.ios.Gachi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = Gachi/Bridging_Header.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -300,6 +397,7 @@
 				F1DBD63D1F1E5B1700AB4D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
