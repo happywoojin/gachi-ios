@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		36B988EFBAD073F11BBC0796 /* Pods_Gachi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9C9FD50B9601C3B8848481 /* Pods_Gachi.framework */; };
+		F143A5B91F35B12A00BA7308 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F143A5B81F35B12A00BA7308 /* MainViewController.swift */; };
 		F1DBD62D1F1E5B1700AB4D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */; };
 		F1DBD62F1F1E5B1700AB4D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */; };
 		F1DBD6321F1E5B1700AB4D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DBD6301F1E5B1700AB4D77 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		13AAEDAD635B19C88F156EAC /* Pods-Gachi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gachi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gachi/Pods-Gachi.debug.xcconfig"; sourceTree = "<group>"; };
 		D336F057E2BF471B41E4C887 /* Pods-Gachi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gachi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gachi/Pods-Gachi.release.xcconfig"; sourceTree = "<group>"; };
 		EE9C9FD50B9601C3B8848481 /* Pods_Gachi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gachi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F143A5B81F35B12A00BA7308 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F1DBD6291F1E5B1700AB4D77 /* Gachi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gachi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F143A5B71F35B10600BA7308 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F143A5B81F35B12A00BA7308 /* MainViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		F1DBD6201F1E5B1700AB4D77 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		F1DBD62B1F1E5B1700AB4D77 /* Gachi */ = {
 			isa = PBXGroup;
 			children = (
+				F143A5B71F35B10600BA7308 /* Main */,
 				F1DBD62C1F1E5B1700AB4D77 /* AppDelegate.swift */,
 				F1DBD62E1F1E5B1700AB4D77 /* ViewController.swift */,
 				F1DBD6301F1E5B1700AB4D77 /* Main.storyboard */,
@@ -218,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F143A5B91F35B12A00BA7308 /* MainViewController.swift in Sources */,
 				F1DBD62F1F1E5B1700AB4D77 /* ViewController.swift in Sources */,
 				F1DBD62D1F1E5B1700AB4D77 /* AppDelegate.swift in Sources */,
 			);
